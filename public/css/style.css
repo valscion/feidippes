@@ -1,0 +1,41 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background-color: hsl(10, 20%, 2%);
+	color: #eee;
+}
+
+header {
+	text-align: center;
+}
+
+header h1 {
+	margin: 1em 0;
+	color: hsl(40, 80%, 80%);
+	text-shadow: 1px 1px hsl(40, 80%, 20%);
+}
+
+.normal {
+	font-size: 150%;
+}
+.big {
+	font-size: 250%;
+}
+.small {
+	font-size: 85%;
+}
+
+.info {
+	margin-top: 1em;
+}
+.info:first-child {
+	margin-top: 0;
+}
+
+a {
+	color: hsl(180, 80%, 30%);
+}
+a:hover {
+	color: hsl(180, 100%, 50%);
+}

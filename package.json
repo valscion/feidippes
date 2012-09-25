@@ -1,0 +1,19 @@
+{
+  "name": "feidippes",
+  "preferGlobal": "false",
+  "version": "0.0.1",
+  "author": "Vesa \"VesQ\" Laakso <laakso.vesa@gmail.com> (http://vesalaakso.com)",
+  "description": "A simple countdown timer",
+  "main": "./server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VesQ/feidippes.git"
+  },
+  "keywords": ["countdown", "timer", "marathon", "athene"],
+  "dependencies": {
+    "express": ">=3.0.0rc5",
+    "ejs": "0.8.x"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=0.8" }
+}
