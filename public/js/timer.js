@@ -41,6 +41,8 @@ function tick(cb) {
 					$('#counter').text(data.resetCount);
 				}
 			}
+		},
+		complete: function () {
 			cb();
 		}
 	});
