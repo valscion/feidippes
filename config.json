@@ -1,4 +1,6 @@
 {
+	"host": "localhost",
+	"port": 80,
 	"baseUrl": "http://localhost/",
 	"styleSheet": "/css/style.css",
 	"timerJs": "/js/timer.js",

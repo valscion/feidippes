@@ -11,13 +11,13 @@
 	</header>
 	<div id="maincontainer">
 		<div id="resetter" class="big info"><a href="#">Reset timers</a></div>
-		<div class="info normal">Safe time left</div>
-		<div id="safetimer" class="timer big">0 min 0 sec</div>
-		<div class="info small">Time since last call</div>
-		<div id="basictimer" class="timer normal">0 min 0 sec</div>
+		<div class="info normal">Time since last reset</div>
+		<div id="timer" class="timer big">0 min 0 sec</div>
+		<div class="info small">Timer reset <span id="counter" class="big">0</span> times</div>
+		<div class="info small">Last reset at <span id="lastreset">00:00</span></div>
 	</div> <!-- #maincontainer -->
 	<footer>
-		<p>"Service" created by <a href="http://vesalaakso.com">Vesa Laakso</a></p>
+		<div class="small">"Service" created by <a href="http://vesalaakso.com">Vesa Laakso</a></div>
 	</footer>
 
 	<script src="<%= config.jquery %>"></script>

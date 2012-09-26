@@ -16,6 +16,13 @@ header h1 {
 	text-shadow: 1px 1px hsl(40, 80%, 20%);
 }
 
+footer {
+	position: fixed;
+	bottom: 1em;
+	width: 100%;
+	text-align: center;
+}
+
 .normal {
 	font-size: 150%;
 }
